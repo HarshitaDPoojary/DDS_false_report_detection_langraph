@@ -1,0 +1,528 @@
+[
+  {
+    "report_id": "rpt-s-1001",
+    "original_incident_type": "gun_threat",
+    "classification": {
+      "consensus_type": "shooting",
+      "consensus_confidence": 0.9,
+      "base_score": 5.0,
+      "providers_used": [
+        "local",
+        "openai",
+        "claude"
+      ],
+      "all_results": {
+        "local": {
+          "type": "other",
+          "confidence": 0.2,
+          "matches": []
+        },
+        "openai": {
+          "type": "shooting",
+          "confidence": 0.85,
+          "reason": "threat involving a handgun and specific plan to return to school with it"
+        },
+        "claude": {
+          "type": "shooting",
+          "confidence": 0.95,
+          "reason": "threat to bring handgun to school"
+        }
+      },
+      "vote_breakdown": {
+        "other": 1,
+        "shooting": 2
+      }
+    },
+    "urgency": {
+      "score": 0.489,
+      "raw_score": 11.5,
+      "max_possible": 23.5,
+      "incident_type": "shooting",
+      "base_score": 9.0,
+      "factors": {
+        "vulnerability": {
+          "weight": 0.0,
+          "factors": [],
+          "description": "none detected"
+        },
+        "suspects": {
+          "weight": 1.5,
+          "count": 2,
+          "category": "2-3",
+          "description": "2 suspect(s)"
+        },
+        "weapon": {
+          "weight": 0.0,
+          "types": [
+            "no_weapon"
+          ],
+          "description": "no_weapon"
+        },
+        "time": {
+          "weight": 0.0,
+          "category": "daytime",
+          "description": "daytime"
+        },
+        "location": {
+          "weight": 1.0,
+          "category": "office",
+          "description": "office"
+        }
+      },
+      "breakdown": [
+        {
+          "component": "base_score",
+          "type": "shooting",
+          "value": 9.0
+        },
+        {
+          "component": "vulnerability",
+          "value": 0.0,
+          "details": "none detected"
+        },
+        {
+          "component": "suspects",
+          "value": 1.5,
+          "details": "2 suspect(s)"
+        },
+        {
+          "component": "weapon",
+          "value": 0.0,
+          "details": "no_weapon"
+        },
+        {
+          "component": "time",
+          "value": 0.0,
+          "details": "daytime"
+        },
+        {
+          "component": "location",
+          "value": 1.0,
+          "details": "office"
+        }
+      ]
+    },
+    "urgency_level": "MEDIUM"
+  },
+  {
+    "report_id": "rpt-s-1002",
+    "original_incident_type": "gun_threat",
+    "classification": {
+      "consensus_type": "shooting",
+      "consensus_confidence": 0.775,
+      "base_score": 5.0,
+      "providers_used": [
+        "local",
+        "openai",
+        "claude"
+      ],
+      "all_results": {
+        "local": {
+          "type": "other",
+          "confidence": 0.2,
+          "matches": []
+        },
+        "openai": {
+          "type": "shooting",
+          "confidence": 0.7,
+          "reason": "mentions a kid showing up with a gun to scare people, indicating a potential shooting threat"
+        },
+        "claude": {
+          "type": "shooting",
+          "confidence": 0.85,
+          "reason": "threat of someone showing up with a gun at school"
+        }
+      },
+      "vote_breakdown": {
+        "other": 1,
+        "shooting": 2
+      }
+    },
+    "urgency": {
+      "score": 0.66,
+      "raw_score": 15.5,
+      "max_possible": 23.5,
+      "incident_type": "shooting",
+      "base_score": 9.0,
+      "factors": {
+        "vulnerability": {
+          "weight": 2.5,
+          "factors": [
+            "children"
+          ],
+          "description": "children"
+        },
+        "suspects": {
+          "weight": 0.0,
+          "count": "unknown",
+          "category": "unknown",
+          "description": "count unknown"
+        },
+        "weapon": {
+          "weight": 4.0,
+          "types": [
+            "firearm"
+          ],
+          "description": "firearm"
+        },
+        "time": {
+          "weight": 0.0,
+          "category": "daytime",
+          "description": "daytime"
+        },
+        "location": {
+          "weight": 0.0,
+          "category": "unknown",
+          "description": "unknown"
+        }
+      },
+      "breakdown": [
+        {
+          "component": "base_score",
+          "type": "shooting",
+          "value": 9.0
+        },
+        {
+          "component": "vulnerability",
+          "value": 2.5,
+          "details": "children"
+        },
+        {
+          "component": "suspects",
+          "value": 0.0,
+          "details": "count unknown"
+        },
+        {
+          "component": "weapon",
+          "value": 4.0,
+          "details": "firearm"
+        },
+        {
+          "component": "time",
+          "value": 0.0,
+          "details": "daytime"
+        },
+        {
+          "component": "location",
+          "value": 0.0,
+          "details": "unknown"
+        }
+      ]
+    },
+    "urgency_level": "HIGH"
+  },
+  {
+    "report_id": "rpt-s-1003",
+    "original_incident_type": "gun_threat",
+    "classification": {
+      "consensus_type": "shooting",
+      "consensus_confidence": 0.85,
+      "base_score": 5.0,
+      "providers_used": [
+        "local",
+        "openai",
+        "claude"
+      ],
+      "all_results": {
+        "local": {
+          "type": "other",
+          "confidence": 0.2,
+          "matches": []
+        },
+        "openai": {
+          "type": "shooting",
+          "confidence": 0.85,
+          "reason": "mention of a handgun and intent to 'make a point' suggests potential shooting incident"
+        },
+        "claude": {
+          "type": "shooting",
+          "confidence": 0.85,
+          "reason": "threat involving handgun at specific school location"
+        }
+      },
+      "vote_breakdown": {
+        "other": 1,
+        "shooting": 2
+      }
+    },
+    "urgency": {
+      "score": 0.404,
+      "raw_score": 9.5,
+      "max_possible": 23.5,
+      "incident_type": "shooting",
+      "base_score": 9.0,
+      "factors": {
+        "vulnerability": {
+          "weight": 0.0,
+          "factors": [],
+          "description": "none detected"
+        },
+        "suspects": {
+          "weight": 0.5,
+          "count": 1,
+          "category": "1",
+          "description": "1 suspect(s)"
+        },
+        "weapon": {
+          "weight": 0.0,
+          "types": [
+            "no_weapon"
+          ],
+          "description": "no_weapon"
+        },
+        "time": {
+          "weight": 0.0,
+          "category": "daytime",
+          "description": "daytime"
+        },
+        "location": {
+          "weight": 0.0,
+          "category": "unknown",
+          "description": "unknown"
+        }
+      },
+      "breakdown": [
+        {
+          "component": "base_score",
+          "type": "shooting",
+          "value": 9.0
+        },
+        {
+          "component": "vulnerability",
+          "value": 0.0,
+          "details": "none detected"
+        },
+        {
+          "component": "suspects",
+          "value": 0.5,
+          "details": "1 suspect(s)"
+        },
+        {
+          "component": "weapon",
+          "value": 0.0,
+          "details": "no_weapon"
+        },
+        {
+          "component": "time",
+          "value": 0.0,
+          "details": "daytime"
+        },
+        {
+          "component": "location",
+          "value": 0.0,
+          "details": "unknown"
+        }
+      ]
+    },
+    "urgency_level": "MEDIUM"
+  },
+  {
+    "report_id": "rpt-s-1004",
+    "original_incident_type": "gun_threat",
+    "classification": {
+      "consensus_type": "other",
+      "consensus_confidence": 0.525,
+      "base_score": 4.75,
+      "providers_used": [
+        "local",
+        "openai",
+        "claude"
+      ],
+      "all_results": {
+        "local": {
+          "type": "other",
+          "confidence": 0.2,
+          "matches": []
+        },
+        "openai": {
+          "type": "suspicious_package",
+          "confidence": 0.6,
+          "reason": "mention of bringing 'something' to be taken seriously and specific locations named, implying potential threat or suspicious item"
+        },
+        "claude": {
+          "type": "other",
+          "confidence": 0.85,
+          "reason": "threatening behavior but no specific incident type clearly indicated"
+        }
+      },
+      "vote_breakdown": {
+        "other": 2,
+        "suspicious_package": 1
+      }
+    },
+    "urgency": {
+      "score": 0.064,
+      "raw_score": 1.5,
+      "max_possible": 23.5,
+      "incident_type": "other",
+      "base_score": 1.0,
+      "factors": {
+        "vulnerability": {
+          "weight": 0.0,
+          "factors": [],
+          "description": "none detected"
+        },
+        "suspects": {
+          "weight": 0.5,
+          "count": 1,
+          "category": "1",
+          "description": "1 suspect(s)"
+        },
+        "weapon": {
+          "weight": 0.0,
+          "types": [
+            "no_weapon"
+          ],
+          "description": "no_weapon"
+        },
+        "time": {
+          "weight": 0.0,
+          "category": "daytime",
+          "description": "daytime"
+        },
+        "location": {
+          "weight": 0.0,
+          "category": "unknown",
+          "description": "unknown"
+        }
+      },
+      "breakdown": [
+        {
+          "component": "base_score",
+          "type": "other",
+          "value": 1.0
+        },
+        {
+          "component": "vulnerability",
+          "value": 0.0,
+          "details": "none detected"
+        },
+        {
+          "component": "suspects",
+          "value": 0.5,
+          "details": "1 suspect(s)"
+        },
+        {
+          "component": "weapon",
+          "value": 0.0,
+          "details": "no_weapon"
+        },
+        {
+          "component": "time",
+          "value": 0.0,
+          "details": "daytime"
+        },
+        {
+          "component": "location",
+          "value": 0.0,
+          "details": "unknown"
+        }
+      ]
+    },
+    "urgency_level": "MINIMAL"
+  },
+  {
+    "report_id": "rpt-s-1005",
+    "original_incident_type": "gun_threat",
+    "classification": {
+      "consensus_type": "other",
+      "consensus_confidence": 0.45,
+      "base_score": 1.0,
+      "providers_used": [
+        "local",
+        "openai",
+        "claude"
+      ],
+      "all_results": {
+        "local": {
+          "type": "other",
+          "confidence": 0.2,
+          "matches": []
+        },
+        "openai": {
+          "type": "other",
+          "confidence": 0.3,
+          "reason": "threatening language but no mention of weapon or specific incident type"
+        },
+        "claude": {
+          "type": "other",
+          "confidence": 0.85,
+          "reason": "threatening behavior but no specific crime occurred"
+        }
+      },
+      "vote_breakdown": {
+        "other": 3
+      }
+    },
+    "urgency": {
+      "score": 0.17,
+      "raw_score": 4.0,
+      "max_possible": 23.5,
+      "incident_type": "other",
+      "base_score": 1.0,
+      "factors": {
+        "vulnerability": {
+          "weight": 0.0,
+          "factors": [],
+          "description": "none detected"
+        },
+        "suspects": {
+          "weight": 0.0,
+          "count": "unknown",
+          "category": "unknown",
+          "description": "count unknown"
+        },
+        "weapon": {
+          "weight": 1.0,
+          "types": [
+            "unknown_weapon"
+          ],
+          "description": "unknown_weapon"
+        },
+        "time": {
+          "weight": 0.0,
+          "category": "daytime",
+          "description": "daytime"
+        },
+        "location": {
+          "weight": 2.0,
+          "category": "residential",
+          "description": "residential"
+        }
+      },
+      "breakdown": [
+        {
+          "component": "base_score",
+          "type": "other",
+          "value": 1.0
+        },
+        {
+          "component": "vulnerability",
+          "value": 0.0,
+          "details": "none detected"
+        },
+        {
+          "component": "suspects",
+          "value": 0.0,
+          "details": "count unknown"
+        },
+        {
+          "component": "weapon",
+          "value": 1.0,
+          "details": "unknown_weapon"
+        },
+        {
+          "component": "time",
+          "value": 0.0,
+          "details": "daytime"
+        },
+        {
+          "component": "location",
+          "value": 2.0,
+          "details": "residential"
+        }
+      ]
+    },
+    "urgency_level": "MINIMAL"
+  }
+]

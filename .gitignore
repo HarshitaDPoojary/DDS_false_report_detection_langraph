@@ -1,0 +1,23 @@
+# Secrets
+.env
+
+# Python venv
+test/
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Build/dist
+dist/
+build/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db

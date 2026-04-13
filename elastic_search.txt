@@ -1,0 +1,3 @@
+ELASTICSEARCH_ENDPOINT = "https://my-elasticsearch-project-fc7d17.es.us-west1.gcp.elastic.cloud:443"
+ELASTICSEARCH_API_KEY = "NmxjWnpKb0I3alBNTUFtUUkydW06MExtbDdzM3hkY2tjcHRmRzVJaUZXQQ=="
+INDEX_NAME = "incident_reports"

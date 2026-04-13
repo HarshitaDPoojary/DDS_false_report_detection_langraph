@@ -1,0 +1,1202 @@
+[
+  {
+    "report_id": 1,
+    "incident_type": "burglary",
+    "free_text": "I'm a pharmacist in Philadelphia. When I arrived at our pharmacy early on Sept 18, I discovered the back door had been pried open. A lot of prescription medications and the cash drawer were stolen. It looks like a targeted burglary overnight.",
+    "where": {
+      "address": "800 Walnut St, Philadelphia, PA",
+      "coordinates": {
+        "lat": 39.947,
+        "lon": -75.155
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-17T22:00:00-04:00",
+      "latest": "2025-09-18T06:00:00-04:00"
+    },
+    "means": "forced door",
+    "reporter": {
+      "type": "employee"
+    }
+  },
+  {
+    "report_id": 2,
+    "incident_type": "sexual harassment",
+    "free_text": "My roommate at college in Boston confided that her professor has been sending her flirty late-night emails and once leaned in too close during office hours. She told me this over the weekend, and I went with her to talk to the department head on Monday.",
+    "where": {
+      "address": "771 Commonwealth Ave, Boston, MA",
+      "coordinates": {
+        "lat": 42.35,
+        "lon": -71.105
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-29T10:00:00-04:00",
+      "latest": "2025-09-29T10:30:00-04:00"
+    },
+    "means": "inappropriate communication",
+    "reporter": {
+      "type": "friend"
+    }
+  },
+  {
+    "report_id": 3,
+    "incident_type": "physical fight",
+    "free_text": "Late Saturday in downtown Detroit, I came across a scuffle outside a club. Two bouncers were trying to separate a group of three men who were fist-fighting on the sidewalk. One man was bleeding from the nose. I waited nearby and gave police a statement when they arrived.",
+    "where": {
+      "address": "Woodward Ave & John R St, Detroit, MI",
+      "coordinates": {
+        "lat": 42.336,
+        "lon": -83.05
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-28T03:00:00-04:00",
+      "latest": "2025-09-28T03:15:00-04:00"
+    },
+    "means": "fists",
+    "reporter": {
+      "type": "bystander"
+    }
+  },
+  {
+    "report_id": 4,
+    "incident_type": "sexual harassment",
+    "free_text": "During a street festival in New Orleans, I saw a group of men surround a female tourist and start making crude sexual comments, trying to grab her. A couple of us nearby shouted at them to back off and helped her get away. She was shaken, and we walked her to the police station to report the incident.",
+    "where": {
+      "address": "Bourbon St & St Peter St, New Orleans, LA",
+      "coordinates": {
+        "lat": 29.958,
+        "lon": -90.064
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-30T22:00:00-05:00",
+      "latest": "2025-09-30T22:30:00-05:00"
+    },
+    "means": "verbal and physical harassment",
+    "reporter": {
+      "type": "bystander"
+    }
+  },
+  {
+    "report_id": 5,
+    "incident_type": "sexual harassment",
+    "free_text": "In Charleston, I was shopping at a boutique when I overheard a male customer telling the young sales clerk extremely lewd things and asking for her number in a harassing way. She looked really uncomfortable. I intervened by pretending to know her until he left. Afterward, I stayed with her while she called her manager to report it.",
+    "where": {
+      "address": "King St, Charleston, SC",
+      "coordinates": {
+        "lat": 32.783,
+        "lon": -79.932
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-22T14:30:00-04:00",
+      "latest": "2025-09-22T14:45:00-04:00"
+    },
+    "means": "verbal harassment",
+    "reporter": {
+      "type": "bystander"
+    }
+  },
+  {
+    "report_id": 6,
+    "incident_type": "burglary",
+    "free_text": "My neighbors in Portland were on vacation. I noticed their kitchen light on one night and a broken window. I called them and then the police. It turned out someone had broken in a day or two after they left. Several valuables were missing when we checked.",
+    "where": {
+      "address": "NE 15th Ave & Alberta St, Portland, OR",
+      "coordinates": {
+        "lat": 45.558,
+        "lon": -122.65
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-21T00:00:00-07:00",
+      "latest": "2025-09-25T21:00:00-07:00"
+    },
+    "means": "broken window",
+    "reporter": {
+      "type": "neighbor"
+    }
+  },
+  {
+    "report_id": 7,
+    "incident_type": "physical fight",
+    "free_text": "Around sunset on Waikiki Beach in Honolulu, I saw two surfers arguing over a wave. It escalated when one punched the other on the sand. A few of us nearby rushed to pull them apart. The lifeguard also came over to break it up. I later spoke to the police as a witness.",
+    "where": {
+      "address": "Waikiki Beach, Honolulu, HI",
+      "coordinates": {
+        "lat": 21.276,
+        "lon": -157.825
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-30T18:30:00-10:00",
+      "latest": "2025-09-30T18:45:00-10:00"
+    },
+    "means": "fists",
+    "reporter": {
+      "type": "bystander"
+    }
+  },
+  {
+    "report_id": 8,
+    "incident_type": "sexual harassment",
+    "free_text": "A colleague at a San Francisco startup confided in me that our boss had been making inappropriate comments and touches at work events. She told me about incidents over the last month, so I helped her report it to HR last week.",
+    "where": {
+      "address": "500 Market St, San Francisco, CA",
+      "coordinates": {
+        "lat": 37.789,
+        "lon": -122.401
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-20T10:00:00-07:00",
+      "latest": "2025-09-20T10:30:00-07:00"
+    },
+    "means": "unwanted touching",
+    "reporter": {
+      "type": "colleague"
+    }
+  },
+  {
+    "report_id": 9,
+    "incident_type": "burglary",
+    "free_text": "My neighbor in Houston texted me at work saying she saw a stranger lurking around my house at noon. When I got home around 5 PM, I found a back window broken and my laptop missing. We think the burglar struck in the early afternoon when nobody was home.",
+    "where": {
+      "address": "7700 block of Ley Rd, Houston, TX",
+      "coordinates": {
+        "lat": 29.82,
+        "lon": -95.271
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-29T12:00:00-05:00",
+      "latest": "2025-09-29T17:00:00-05:00"
+    },
+    "means": "broken window",
+    "reporter": {
+      "type": "neighbor"
+    }
+  },
+  {
+    "report_id": 10,
+    "incident_type": "physical fight",
+    "free_text": "While walking to my car at a Phoenix mall, I witnessed two families in a heated argument over a parking spot. Suddenly, several people were pushing and punching each other between the cars. One person swung a shopping bag at another. I kept my distance and dialed 911 as the fight continued.",
+    "where": {
+      "address": "Desert Sky Mall Parking Lot, Phoenix, AZ",
+      "coordinates": {
+        "lat": 33.494,
+        "lon": -112.256
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-26T16:30:00-07:00",
+      "latest": "2025-09-26T16:45:00-07:00"
+    },
+    "means": "fists",
+    "reporter": {
+      "type": "bystander"
+    }
+  },
+  {
+    "report_id": 11,
+    "incident_type": "gun threat",
+    "free_text": "My friend in Tucson received threatening texts from her ex-boyfriend saying he would shoot her and her new partner. She showed me the messages that evening, and I helped her contact the police. The police took a report and patrolled near her home that night.",
+    "where": {
+      "address": "2500 E 5th St, Tucson, AZ",
+      "coordinates": {
+        "lat": 32.228,
+        "lon": -110.95
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-24T21:00:00-07:00",
+      "latest": "2025-09-24T21:30:00-07:00"
+    },
+    "means": "firearm",
+    "reporter": {
+      "type": "friend"
+    }
+  },
+  {
+    "report_id": 12,
+    "incident_type": "gun threat",
+    "free_text": "On I-65 near Mobile, I saw a driver pull a handgun on another driver after they cut each other off. I was a few cars behind and could clearly see the gun through the window. The incident happened quickly and both cars sped off. I later called the police to report what I witnessed.",
+    "where": {
+      "address": "I-65 South near Exit 5, Mobile, AL",
+      "coordinates": {
+        "lat": 30.7053,
+        "lon": -88.1228
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-20T08:30:00-05:00",
+      "latest": "2025-09-20T08:45:00-05:00"
+    },
+    "means": "firearm",
+    "reporter": {
+      "type": "driver"
+    }
+  },
+  {
+    "report_id": 13,
+    "incident_type": "sexual harassment",
+    "free_text": "At my gym in Atlanta, a personal trainer was constantly flirting and making sexual remarks to a client during sessions. My friend is that client, and she told me he even tried to touch her inappropriately under the guise of 'spotting' her. She told me this after a session, so I helped her talk to the gym manager.",
+    "where": {
+      "address": "400 Peachtree St NE, Atlanta, GA",
+      "coordinates": {
+        "lat": 33.765,
+        "lon": -84.387
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-22T21:00:00-04:00",
+      "latest": "2025-09-22T21:30:00-04:00"
+    },
+    "means": "inappropriate touching",
+    "reporter": {
+      "type": "friend"
+    }
+  },
+  {
+    "report_id": 14,
+    "incident_type": "gun threat",
+    "free_text": "At a community meeting in Albuquerque, a man was heard saying that he should 'just shoot up this place to make a point' during an argument. I heard about this from another attendee afterward. We reported it to the authorities that evening, and extra police were present at the next meeting.",
+    "where": {
+      "address": "South Valley Community Center, 2000 block of Larrazolo Rd SW, Albuquerque, NM",
+      "coordinates": {
+        "lat": 35.084,
+        "lon": -106.651
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-22T19:30:00-06:00",
+      "latest": "2025-09-22T20:00:00-06:00"
+    },
+    "means": "firearm",
+    "reporter": {
+      "type": "neighbor"
+    }
+  },
+  {
+    "report_id": 15,
+    "incident_type": "sexual harassment",
+    "free_text": "While dining at a Chicago restaurant, I saw a male customer repeatedly grab and slap a waitress's rear end despite her protests. It happened quickly before the manager intervened and kicked him out. I spoke with the waitress after and encouraged her to report it.",
+    "where": {
+      "address": "700 N Milwaukee Ave, Chicago, IL",
+      "coordinates": {
+        "lat": 41.89,
+        "lon": -87.655
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-26T19:45:00-05:00",
+      "latest": "2025-09-26T20:00:00-05:00"
+    },
+    "means": "unwanted touching",
+    "reporter": {
+      "type": "bystander"
+    }
+  },
+  {
+    "report_id": 16,
+    "incident_type": "gun threat",
+    "free_text": "A coworker at our downtown LA office said he heard another employee muttering about coming back with a gun after he was fired. I heard about this a day before it was supposed to happen, and I alerted our security team. The person was intercepted by police when he showed up at the building.",
+    "where": {
+      "address": "350 S Grand Ave, Los Angeles, CA 90071",
+      "coordinates": {
+        "lat": 34.0505,
+        "lon": -118.255
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-29T09:00:00-07:00",
+      "latest": "2025-09-29T09:30:00-07:00"
+    },
+    "means": "firearm",
+    "reporter": {
+      "type": "employee"
+    }
+  },
+  {
+    "report_id": 17,
+    "incident_type": "burglary",
+    "free_text": "I manage a small electronics store in Salt Lake City. We had a break-in on Sept 16. The thief smashed the front window and took several laptops. I wasn't there at night, but the security alarm alerted me around 3 AM. By the time police arrived, the suspect was gone.",
+    "where": {
+      "address": "400 S & State St, Salt Lake City, UT",
+      "coordinates": {
+        "lat": 40.76,
+        "lon": -111.888
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-16T03:00:00-06:00",
+      "latest": "2025-09-16T03:15:00-06:00"
+    },
+    "means": "smashed window",
+    "reporter": {
+      "type": "manager"
+    }
+  },
+  {
+    "report_id": 18,
+    "incident_type": "burglary",
+    "free_text": "I was house-sitting for my cousin in Kansas City. One night, I came back to the house and found the kitchen door ajar and muddy footprints inside. A TV and some electronics were gone. It must have happened in the few hours I was out for dinner.",
+    "where": {
+      "address": "W 47th St & Belleview Ave, Kansas City, MO",
+      "coordinates": {
+        "lat": 39.043,
+        "lon": -94.596
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-28T18:00:00-05:00",
+      "latest": "2025-09-28T21:00:00-05:00"
+    },
+    "means": "forced door",
+    "reporter": {
+      "type": "relative"
+    }
+  },
+  {
+    "report_id": 19,
+    "incident_type": "physical fight",
+    "free_text": "On the Las Vegas Strip, right outside a casino, I saw two women get into a fistfight. It looked like a dispute over a spilled drink. They were pulling each other's hair and slapping. A crowd formed but nobody intervened until security guards ran over. I stuck around to give a witness statement.",
+    "where": {
+      "address": "Las Vegas Blvd & Flamingo Rd, Las Vegas, NV",
+      "coordinates": {
+        "lat": 36.117,
+        "lon": -115.172
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-24T01:00:00-07:00",
+      "latest": "2025-09-24T01:15:00-07:00"
+    },
+    "means": "fists",
+    "reporter": {
+      "type": "bystander"
+    }
+  },
+  {
+    "report_id": 20,
+    "incident_type": "physical fight",
+    "free_text": "At the 125th Street subway station in NYC, I saw two men get into a fist fight on the platform. They were shoving and punching each other over something trivial. One pushed the other into a bench. I called for transit police while a few bystanders tried to break it up.",
+    "where": {
+      "address": "125th Street Station, New York, NY",
+      "coordinates": {
+        "lat": 40.818,
+        "lon": -73.945
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-18T08:30:00-04:00",
+      "latest": "2025-09-18T08:45:00-04:00"
+    },
+    "means": "fists",
+    "reporter": {
+      "type": "bystander"
+    }
+  },
+  {
+    "report_id": 21,
+    "incident_type": "physical fight",
+    "free_text": "In downtown Philadelphia, I watched two drivers stop at a red light, get out and start physically fighting in the middle of the street. They were grappling and hitting each other while traffic honked. I was walking by and kept a distance but called 911. Both men left before the cops arrived.",
+    "where": {
+      "address": "Broad St & Market St, Philadelphia, PA",
+      "coordinates": {
+        "lat": 39.952,
+        "lon": -75.164
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-24T17:00:00-04:00",
+      "latest": "2025-09-24T17:10:00-04:00"
+    },
+    "means": "fists",
+    "reporter": {
+      "type": "bystander"
+    }
+  },
+  {
+    "report_id": 22,
+    "incident_type": "gun threat",
+    "free_text": "I was walking in the park when I saw a man yelling and waving a handgun at another person. People nearby started to run away. I called the police after I got to a safe distance. The guy left before police arrived.",
+    "where": {
+      "address": "Cal Anderson Park, Seattle, WA",
+      "coordinates": {
+        "lat": 47.6173,
+        "lon": -122.319
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-20T19:00:00-07:00",
+      "latest": "2025-09-20T19:15:00-07:00"
+    },
+    "means": "firearm",
+    "reporter": {
+      "type": "bystander"
+    }
+  },
+  {
+    "report_id": 23,
+    "incident_type": "physical fight",
+    "free_text": "On Bourbon Street in New Orleans, late at night, a fight erupted between a couple of bar patrons and a street performer. They were shoving each other and one patron threw a punch. The street performer fought back. A crowd started to gather. I quickly stepped into a nearby store and asked the clerk to call the police.",
+    "where": {
+      "address": "Bourbon St & St Louis St, New Orleans, LA",
+      "coordinates": {
+        "lat": 29.9585,
+        "lon": -90.066
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-27T01:30:00-05:00",
+      "latest": "2025-09-27T01:45:00-05:00"
+    },
+    "means": "fists",
+    "reporter": {
+      "type": "bystander"
+    }
+  },
+  {
+    "report_id": 24,
+    "incident_type": "physical fight",
+    "free_text": "Outside a nightclub in Los Angeles around closing time, I witnessed a brawl between two groups of guys. It started with yelling and then punches were thrown. One guy smashed a bottle on the ground. I was across the street and called 911 as the fight spilled onto the sidewalk.",
+    "where": {
+      "address": "Sunset Blvd & N Highland Ave, Los Angeles, CA",
+      "coordinates": {
+        "lat": 34.098,
+        "lon": -118.338
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-19T02:00:00-07:00",
+      "latest": "2025-09-19T02:15:00-07:00"
+    },
+    "means": "fists and bottle",
+    "reporter": {
+      "type": "bystander"
+    }
+  },
+  {
+    "report_id": 25,
+    "incident_type": "burglary",
+    "free_text": "I'm a pharmacist in Philadelphia. When I arrived at our pharmacy early on Sept 18, I discovered the back door had been pried open. A lot of prescription medications and the cash drawer were stolen. It looks like a targeted burglary overnight.",
+    "where": {
+      "address": "800 Walnut St, Philadelphia, PA",
+      "coordinates": {
+        "lat": 39.947,
+        "lon": -75.155
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-17T22:00:00-04:00",
+      "latest": "2025-09-18T06:00:00-04:00"
+    },
+    "means": "forced door",
+    "reporter": {
+      "type": "employee"
+    }
+  },
+  {
+    "report_id": 26,
+    "incident_type": "sexual harassment",
+    "free_text": "An intern in our DC agency confided in me that a supervisor made unwanted advances at a work happy hour, including touching her waist and making suggestive comments. She told me the morning after it happened, and I encouraged her to report it to the director.",
+    "where": {
+      "address": "800 Pennsylvania Ave NW, Washington, DC",
+      "coordinates": {
+        "lat": 38.892,
+        "lon": -77.024
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-19T09:00:00-04:00",
+      "latest": "2025-09-19T09:30:00-04:00"
+    },
+    "means": "unwanted advances",
+    "reporter": {
+      "type": "colleague"
+    }
+  },
+  {
+    "report_id": 27,
+    "incident_type": "sexual harassment",
+    "free_text": "At our Dallas office, I overheard a senior employee making explicit sexual jokes to a new hire by the break room. The new hire looked very uncomfortable. I stepped in to interrupt and later helped her report the harassment to HR.",
+    "where": {
+      "address": "750 N St. Paul Street, Dallas, TX",
+      "coordinates": {
+        "lat": 32.787,
+        "lon": -96.798
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-28T15:00:00-05:00",
+      "latest": "2025-09-28T15:15:00-05:00"
+    },
+    "means": "verbal harassment",
+    "reporter": {
+      "type": "employee"
+    }
+  },
+  {
+    "report_id": 28,
+    "incident_type": "gun threat",
+    "free_text": "After an argument at work in Cleveland, one of my coworkers told me that the other guy said, 'I'm going to get my gun and settle this' as he stormed out. We took it seriously and I notified our supervisor. The police were called that evening as a precaution.",
+    "where": {
+      "address": "600 Superior Ave, Cleveland, OH",
+      "coordinates": {
+        "lat": 41.4991,
+        "lon": -81.6955
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-23T17:00:00-04:00",
+      "latest": "2025-09-23T18:00:00-04:00"
+    },
+    "means": "firearm",
+    "reporter": {
+      "type": "employee"
+    }
+  },
+  {
+    "report_id": 29,
+    "incident_type": "gun threat",
+    "free_text": "On a group chat, I saw messages that someone was planning to bring a gun to Lenox Square Mall in Atlanta over the weekend. It sounded like a possible shooting. I heard about it two days before and informed the police. They increased patrols at the mall and nothing ended up happening.",
+    "where": {
+      "address": "Lenox Square Mall, 3393 Peachtree Rd NE, Atlanta, GA",
+      "coordinates": {
+        "lat": 33.8467,
+        "lon": -84.3637
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-26T18:00:00-04:00",
+      "latest": "2025-09-26T19:00:00-04:00"
+    },
+    "means": "firearm",
+    "reporter": {
+      "type": "neighbor"
+    }
+  },
+  {
+    "report_id": 30,
+    "incident_type": "burglary",
+    "free_text": "When I got back to my New Orleans apartment after a weekend trip, I found the front lock broken and my place ransacked. My TV and laptop were gone. It likely happened on Saturday night. A neighbor said they heard a noise but thought it was me.",
+    "where": {
+      "address": "Decatur St & Frenchmen St, New Orleans, LA",
+      "coordinates": {
+        "lat": 29.963,
+        "lon": -90.057
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-20T20:00:00-05:00",
+      "latest": "2025-09-22T18:00:00-05:00"
+    },
+    "means": "forced lock",
+    "reporter": {
+      "type": "resident"
+    }
+  },
+  {
+    "report_id": 31,
+    "incident_type": "gun threat",
+    "free_text": "Our office in Charlotte got an anonymous email that someone was going to 'shoot up the building'. It sounded like a disgruntled former employee. I heard about the email from my manager the day it came in. We contacted the police right away and worked remotely the next day as a precaution.",
+    "where": {
+      "address": "201 S College St, Charlotte, NC",
+      "coordinates": {
+        "lat": 35.227,
+        "lon": -80.842
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-30T16:00:00-04:00",
+      "latest": "2025-09-30T16:15:00-04:00"
+    },
+    "means": "firearm",
+    "reporter": {
+      "type": "employee"
+    }
+  },
+  {
+    "report_id": 32,
+    "incident_type": "sexual harassment",
+    "free_text": "At a crowded nightclub in Miami, I saw a man repeatedly grind on and grope a woman who looked uncomfortable. She was trying to get away. I alerted a security guard. The man was escorted out and I checked on the woman afterward. She decided to file a report with club security.",
+    "where": {
+      "address": "Ocean Dr & 8th St, Miami Beach, FL",
+      "coordinates": {
+        "lat": 25.779,
+        "lon": -80.131
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-21T01:00:00-04:00",
+      "latest": "2025-09-21T01:15:00-04:00"
+    },
+    "means": "groping",
+    "reporter": {
+      "type": "bystander"
+    }
+  },
+  {
+    "report_id": 33,
+    "incident_type": "sexual harassment",
+    "free_text": "A friend who works as an assistant in a Hollywood studio told me her producer has been making sexual comments and suggesting she 'owe' him private favors for career help. She revealed this to me after work one day, and I accompanied her to file a complaint.",
+    "where": {
+      "address": "7200 Sunset Blvd, Los Angeles, CA",
+      "coordinates": {
+        "lat": 34.098,
+        "lon": -118.329
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-23T20:00:00-07:00",
+      "latest": "2025-09-23T20:30:00-07:00"
+    },
+    "means": "inappropriate comments",
+    "reporter": {
+      "type": "friend"
+    }
+  },
+  {
+    "report_id": 34,
+    "incident_type": "physical fight",
+    "free_text": "I was in the parking lot after a Chicago football game when I saw two groups of fans yelling at each other. It escalated into a fistfight, and one person used a baseball bat from a truck to threaten the others. I quickly moved away and called stadium security from my phone.",
+    "where": {
+      "address": "Soldier Field Parking Lot, Chicago, IL",
+      "coordinates": {
+        "lat": 41.862,
+        "lon": -87.616
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-23T22:30:00-05:00",
+      "latest": "2025-09-23T22:45:00-05:00"
+    },
+    "means": "fists and blunt object",
+    "reporter": {
+      "type": "bystander"
+    }
+  },
+  {
+    "report_id": 35,
+    "incident_type": "gun threat",
+    "free_text": "I saw a post on social media from a student threatening to shoot up our school (Cardozo High School). I reported it immediately and the police arrested him before anything happened, finding a handgun in his backpack.",
+    "where": {
+      "address": "Benjamin N. Cardozo High School, 57-00 223rd St, Bayside, NY 11364",
+      "coordinates": {
+        "lat": 40.7517,
+        "lon": -73.75653
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-18T11:30:00-04:00",
+      "latest": "2025-09-18T12:00:00-04:00"
+    },
+    "means": "firearm",
+    "reporter": {
+      "type": "student"
+    }
+  },
+  {
+    "report_id": 36,
+    "incident_type": "burglary",
+    "free_text": "I stepped out of my Miami apartment for only two hours in the evening, and in that short time someone broke in. When I came back around 9 PM, the front door was slightly open and my laptop and jewelry were gone. They might have picked the lock or gotten in through the balcony.",
+    "where": {
+      "address": "1000 block of Collins Ave, Miami Beach, FL",
+      "coordinates": {
+        "lat": 25.78,
+        "lon": -80.132
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-26T19:00:00-04:00",
+      "latest": "2025-09-26T21:00:00-04:00"
+    },
+    "means": "lock picked",
+    "reporter": {
+      "type": "resident"
+    }
+  },
+  {
+    "report_id": 37,
+    "incident_type": "burglary",
+    "free_text": "My garage in Denver was broken into sometime between Friday night and Saturday morning. I found the side door pried open and my bike and power tools gone. I suspect it happened in the middle of the night. My neighbor heard noises around 2 AM.",
+    "where": {
+      "address": "2000 block of S Josephine St, Denver, CO",
+      "coordinates": {
+        "lat": 39.679,
+        "lon": -104.958
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-19T23:00:00-06:00",
+      "latest": "2025-09-20T07:00:00-06:00"
+    },
+    "means": "forced entry",
+    "reporter": {
+      "type": "homeowner"
+    }
+  },
+  {
+    "report_id": 38,
+    "incident_type": "sexual harassment",
+    "free_text": "At a company party in Seattle, I noticed one of my coworkers cornering another in a hallway and trying to kiss her against her will. She pushed him away. I intervened and got her out of there. She was shaken and I supported her in reporting the incident the next day.",
+    "where": {
+      "address": "427 Fairview Ave N, Seattle, WA",
+      "coordinates": {
+        "lat": 47.621,
+        "lon": -122.338
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-30T23:00:00-07:00",
+      "latest": "2025-09-30T23:15:00-07:00"
+    },
+    "means": "unwanted physical advance",
+    "reporter": {
+      "type": "coworker"
+    }
+  },
+  {
+    "report_id": 39,
+    "incident_type": "gun threat",
+    "free_text": "A friend in my class showed me a Snapchat message where a girl threatened to shoot everyone at our school. We told a teacher and the police were contacted before the end of the day. The student was arrested for making the threat.",
+    "where": {
+      "address": "East Lake High School, 1300 Silver Eagle Dr, Tarpon Springs, FL 34688",
+      "coordinates": {
+        "lat": 28.1272,
+        "lon": -82.7013
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-22T15:00:00-04:00",
+      "latest": "2025-09-22T17:00:00-04:00"
+    },
+    "means": "firearm",
+    "reporter": {
+      "type": "student"
+    }
+  },
+  {
+    "report_id": 40,
+    "incident_type": "sexual harassment",
+    "free_text": "While at a casino in Las Vegas, I observed an older man make very explicit sexual remarks to a young female dealer and try to touch her hand repeatedly. She looked upset and kept pulling back. I reported his behavior to another staff member immediately, and security removed him from the table.",
+    "where": {
+      "address": "3131 Las Vegas Blvd S, Las Vegas, NV",
+      "coordinates": {
+        "lat": 36.128,
+        "lon": -115.166
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-18T23:00:00-07:00",
+      "latest": "2025-09-18T23:10:00-07:00"
+    },
+    "means": "verbal harassment",
+    "reporter": {
+      "type": "bystander"
+    }
+  },
+  {
+    "report_id": 41,
+    "incident_type": "burglary",
+    "free_text": "My friend in Brooklyn asked me to check on her apartment while she was traveling. When I went by on the evening of Sept 26, I found the window broken and the place had been burglarized. It likely happened overnight. I called her and the police immediately.",
+    "where": {
+      "address": "200 block of Bedford Ave, Brooklyn, NY",
+      "coordinates": {
+        "lat": 40.717,
+        "lon": -73.956
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-25T22:00:00-04:00",
+      "latest": "2025-09-26T18:00:00-04:00"
+    },
+    "means": "broken window",
+    "reporter": {
+      "type": "friend"
+    }
+  },
+  {
+    "report_id": 42,
+    "incident_type": "burglary",
+    "free_text": "I returned to my home in San Diego around 7 PM and found the front door pried open and the house ransacked. The burglary must have happened earlier in the afternoon while I was at work. Several electronics and jewelry were missing.",
+    "where": {
+      "address": "3200 block of Redwood St, San Diego, CA",
+      "coordinates": {
+        "lat": 32.739,
+        "lon": -117.13
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-21T12:00:00-07:00",
+      "latest": "2025-09-21T19:00:00-07:00"
+    },
+    "means": "forced door",
+    "reporter": {
+      "type": "homeowner"
+    }
+  },
+  {
+    "report_id": 43,
+    "incident_type": "physical fight",
+    "free_text": "After a baseball game in Boston, I saw a fight break out between a few drunken fans in the stands. They were throwing punches and one guy got hit with a plastic cup. Security rushed in within minutes. I was nearby and gave a statement as a witness to stadium security.",
+    "where": {
+      "address": "Fenway Park, 4 Yawkey Way, Boston, MA",
+      "coordinates": {
+        "lat": 42.346,
+        "lon": -71.097
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-30T22:00:00-04:00",
+      "latest": "2025-09-30T22:15:00-04:00"
+    },
+    "means": "fists",
+    "reporter": {
+      "type": "bystander"
+    }
+  },
+  {
+    "report_id": 44,
+    "incident_type": "physical fight",
+    "free_text": "At a Friday night high school football game in a Dallas suburb, a fight broke out between some students from rival schools. I saw one student shove another, then about five kids were trading punches under the bleachers. As a parent, I ran to get a school security officer who broke it up.",
+    "where": {
+      "address": "Williams High School Stadium, Plano, TX",
+      "coordinates": {
+        "lat": 33.019,
+        "lon": -96.699
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-20T20:00:00-05:00",
+      "latest": "2025-09-20T20:15:00-05:00"
+    },
+    "means": "fists",
+    "reporter": {
+      "type": "parent"
+    }
+  },
+  {
+    "report_id": 45,
+    "incident_type": "sexual harassment",
+    "free_text": "At our Dallas office, I overheard a senior employee making explicit sexual jokes to a new hire by the break room. The new hire looked very uncomfortable. I stepped in to interrupt and later helped her report the harassment to HR.",
+    "where": {
+      "address": "750 N St. Paul Street, Dallas, TX",
+      "coordinates": {
+        "lat": 32.787,
+        "lon": -96.798
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-28T15:00:00-05:00",
+      "latest": "2025-09-28T15:15:00-05:00"
+    },
+    "means": "verbal harassment",
+    "reporter": {
+      "type": "employee"
+    }
+  },
+  {
+    "report_id": 46,
+    "incident_type": "sexual harassment",
+    "free_text": "A colleague at a San Francisco startup confided in me that our boss had been making inappropriate comments and touches at work events. She told me about incidents over the last month, so I helped her report it to HR last week.",
+    "where": {
+      "address": "500 Market St, San Francisco, CA",
+      "coordinates": {
+        "lat": 37.789,
+        "lon": -122.401
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-20T10:00:00-07:00",
+      "latest": "2025-09-20T10:30:00-07:00"
+    },
+    "means": "unwanted touching",
+    "reporter": {
+      "type": "colleague"
+    }
+  },
+  {
+    "report_id": 47,
+    "incident_type": "physical fight",
+    "free_text": "On a Miami beach in the evening, I saw two groups of tourists get into a brawl after a volleyball game turned into an argument. They were shoving and punching each other in the sand. Other beachgoers shouted at them to stop. I notified a lifeguard who then radioed for police.",
+    "where": {
+      "address": "South Beach, Miami Beach, FL",
+      "coordinates": {
+        "lat": 25.781,
+        "lon": -80.13
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-29T18:00:00-04:00",
+      "latest": "2025-09-29T18:15:00-04:00"
+    },
+    "means": "fists",
+    "reporter": {
+      "type": "bystander"
+    }
+  },
+  {
+    "report_id": 48,
+    "incident_type": "gun threat",
+    "free_text": "I got a text from a friend at Riverheads Middle School saying someone was threatening to shoot up the school the next morning. We told our parents right away that night. The school and police intervened, and the student behind the threat was taken into custody the next day.",
+    "where": {
+      "address": "Riverheads Middle School, 240 Don Hanger Cir, Staunton, VA 24401",
+      "coordinates": {
+        "lat": 38.15,
+        "lon": -79.072
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-19T07:00:00-04:00",
+      "latest": "2025-09-19T08:00:00-04:00"
+    },
+    "means": "firearm",
+    "reporter": {
+      "type": "student"
+    }
+  },
+  {
+    "report_id": 49,
+    "incident_type": "burglary",
+    "free_text": "I heard glass shatter at my neighbor's house in Cleveland around midnight. I looked out and saw someone climbing out a side window with a bag. By the time I ran outside, they were gone. I called my neighbor and the police right away.",
+    "where": {
+      "address": "Archwood Ave & W 25th St, Cleveland, OH",
+      "coordinates": {
+        "lat": 41.448,
+        "lon": -81.706
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-23T00:00:00-04:00",
+      "latest": "2025-09-23T00:30:00-04:00"
+    },
+    "means": "broken window",
+    "reporter": {
+      "type": "neighbor"
+    }
+  },
+  {
+    "report_id": 50,
+    "incident_type": "physical fight",
+    "free_text": "In Portland, my two next-door neighbors got into a physical fight on the front lawn over a noise complaint. I heard shouting and saw them pushing each other. One neighbor threw a punch and they ended up wrestling on the ground. I called the police while another neighbor tried to separate them.",
+    "where": {
+      "address": "SE 30th Ave & SE Stark St, Portland, OR",
+      "coordinates": {
+        "lat": 45.519,
+        "lon": -122.634
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-22T23:00:00-07:00",
+      "latest": "2025-09-22T23:15:00-07:00"
+    },
+    "means": "fists",
+    "reporter": {
+      "type": "neighbor"
+    }
+  },
+  {
+    "report_id": 51,
+    "incident_type": "sexual harassment",
+    "free_text": "My coworker in Phoenix told me that her rideshare driver made creepy comments about her looks during the ride and even tried to touch her leg when the car stopped at a light. She was terrified and jumped out of the car early. She told me about it the next day at work, and we helped her report it to the rideshare company and police.",
+    "where": {
+      "address": "7th St & E Van Buren St, Phoenix, AZ",
+      "coordinates": {
+        "lat": 33.452,
+        "lon": -112.064
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-28T08:00:00-07:00",
+      "latest": "2025-09-28T08:30:00-07:00"
+    },
+    "means": "unwanted advance",
+    "reporter": {
+      "type": "coworker"
+    }
+  },
+  {
+    "report_id": 52,
+    "incident_type": "gun threat",
+    "free_text": "On a group chat, I saw messages that someone was planning to bring a gun to Lenox Square Mall in Atlanta over the weekend. It sounded like a possible shooting. I heard about it two days before and informed the police. They increased patrols at the mall and nothing ended up happening.",
+    "where": {
+      "address": "Lenox Square Mall, 3393 Peachtree Rd NE, Atlanta, GA",
+      "coordinates": {
+        "lat": 33.8467,
+        "lon": -84.3637
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-26T18:00:00-04:00",
+      "latest": "2025-09-26T19:00:00-04:00"
+    },
+    "means": "firearm",
+    "reporter": {
+      "type": "neighbor"
+    }
+  },
+  {
+    "report_id": 53,
+    "incident_type": "gun threat",
+    "free_text": "A customer got angry at closing time and flashed a gun at the store manager, threatening to 'come back tomorrow'. The manager told us and we informed the police later that night. They increased security at the store the next day.",
+    "where": {
+      "address": "1400 Westheimer Rd, Houston, TX",
+      "coordinates": {
+        "lat": 29.75,
+        "lon": -95.36
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-21T21:00:00-05:00",
+      "latest": "2025-09-21T21:30:00-05:00"
+    },
+    "means": "firearm",
+    "reporter": {
+      "type": "employee"
+    }
+  },
+  {
+    "report_id": 54,
+    "incident_type": "gun threat",
+    "free_text": "I saw a post on social media from a student threatening to shoot up our school (Cardozo High School). I reported it immediately and the police arrested him before anything happened, finding a handgun in his backpack.",
+    "where": {
+      "address": "Benjamin N. Cardozo High School, 57-00 223rd St, Bayside, NY 11364",
+      "coordinates": {
+        "lat": 40.7517,
+        "lon": -73.75653
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-18T11:30:00-04:00",
+      "latest": "2025-09-18T12:00:00-04:00"
+    },
+    "means": "firearm",
+    "reporter": {
+      "type": "student"
+    }
+  },
+  {
+    "report_id": 55,
+    "incident_type": "sexual harassment",
+    "free_text": "An intern in our DC agency confided in me that a supervisor made unwanted advances at a work happy hour, including touching her waist and making suggestive comments. She told me the morning after it happened, and I encouraged her to report it to the director.",
+    "where": {
+      "address": "800 Pennsylvania Ave NW, Washington, DC",
+      "coordinates": {
+        "lat": 38.892,
+        "lon": -77.024
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-19T09:00:00-04:00",
+      "latest": "2025-09-19T09:30:00-04:00"
+    },
+    "means": "unwanted advances",
+    "reporter": {
+      "type": "colleague"
+    }
+  },
+  {
+    "report_id": 56,
+    "incident_type": "burglary",
+    "free_text": "We've had several car break-ins in our Phoenix neighborhood recently. Last night, my security camera caught a man trying door handles and breaking into my truck at around 3 AM. He took some tools. I discovered it this morning and shared the footage with the police.",
+    "where": {
+      "address": "Paradise Valley, Phoenix, AZ",
+      "coordinates": {
+        "lat": 33.531,
+        "lon": -111.996
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-27T03:00:00-07:00",
+      "latest": "2025-09-27T03:15:00-07:00"
+    },
+    "means": "car break-in",
+    "reporter": {
+      "type": "homeowner"
+    }
+  },
+  {
+    "report_id": 57,
+    "incident_type": "physical fight",
+    "free_text": "On a Miami beach in the evening, I saw two groups of tourists get into a brawl after a volleyball game turned into an argument. They were shoving and punching each other in the sand. Other beachgoers shouted at them to stop. I notified a lifeguard who then radioed for police.",
+    "where": {
+      "address": "South Beach, Miami Beach, FL",
+      "coordinates": {
+        "lat": 25.781,
+        "lon": -80.13
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-29T18:00:00-04:00",
+      "latest": "2025-09-29T18:15:00-04:00"
+    },
+    "means": "fists",
+    "reporter": {
+      "type": "bystander"
+    }
+  },
+  {
+    "report_id": 58,
+    "incident_type": "burglary",
+    "free_text": "I own a boutique in Chicago. When I opened the shop on the morning of Sept 20, I found the front glass door smashed. The cash register and some merchandise were gone. The burglary must have occurred overnight.",
+    "where": {
+      "address": "1500 W Division St, Chicago, IL",
+      "coordinates": {
+        "lat": 41.903,
+        "lon": -87.667
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-19T21:00:00-05:00",
+      "latest": "2025-09-20T08:00:00-05:00"
+    },
+    "means": "smashed door",
+    "reporter": {
+      "type": "owner"
+    }
+  },
+  {
+    "report_id": 59,
+    "incident_type": "gun threat",
+    "free_text": "On I-65 near Mobile, I saw a driver pull a handgun on another driver after they cut each other off. I was a few cars behind and could clearly see the gun through the window. The incident happened quickly and both cars sped off. I later called the police to report what I witnessed.",
+    "where": {
+      "address": "I-65 South near Exit 5, Mobile, AL",
+      "coordinates": {
+        "lat": 30.7053,
+        "lon": -88.1228
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-20T08:30:00-05:00",
+      "latest": "2025-09-20T08:45:00-05:00"
+    },
+    "means": "firearm",
+    "reporter": {
+      "type": "driver"
+    }
+  },
+  {
+    "report_id": 60,
+    "incident_type": "sexual harassment",
+    "free_text": "My roommate at college in Boston confided that her professor has been sending her flirty late-night emails and once leaned in too close during office hours. She told me this over the weekend, and I went with her to talk to the department head on Monday.",
+    "where": {
+      "address": "771 Commonwealth Ave, Boston, MA",
+      "coordinates": {
+        "lat": 42.35,
+        "lon": -71.105
+      }
+    },
+    "when_window": {
+      "earliest": "2025-09-29T10:00:00-04:00",
+      "latest": "2025-09-29T10:30:00-04:00"
+    },
+    "means": "inappropriate communication",
+    "reporter": {
+      "type": "friend"
+    }
+  }
+]
