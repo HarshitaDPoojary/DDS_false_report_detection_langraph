@@ -199,6 +199,146 @@ curl -H "X-API-Key: your-analyst-api-key" \
   http://localhost:8080/v1/reports/{report_id}
 ```
 
+## Backend Integration Guide
+
+This section is for backend developers integrating with the AI pipeline. The system is **async by design** — submission returns immediately and analysis runs in the background. Your backend must poll for the result.
+
+### Step 1 — Submit the Report
+
+Send a `multipart/form-data` POST to `/v1/reports`. No authentication required.
+
+```http
+POST /v1/reports
+Content-Type: multipart/form-data
+```
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `report` | string | Yes | Free-text incident description |
+| `reporter_name` | string | No | Reporter's name (omit for anonymous) |
+| `report_id` | string (UUID) | No | Custom ID — auto-generated if omitted |
+| `attachments` | file (repeatable) | No | Images or PDFs to analyze (screenshots, vehicle photos, IDs, etc.) |
+
+**Example:**
+```bash
+curl -X POST http://localhost:8080/v1/reports \
+  -F "report=Suspect seen fleeing in blue sedan near Lincoln High." \
+  -F "reporter_name=John Smith" \
+  -F "attachments=@screenshot.jpg" \
+  -F "attachments=@vehicle.jpg"
+```
+
+**Response (201):**
+```json
+{
+  "report_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "status": "submitted"
+}
+```
+
+Store the `report_id` — you will need it to poll for results.
+
+### Step 2 — Poll for the Result
+
+The AI pipeline (OCR → embedding → hoax scoring) runs in the background. Poll `GET /v1/reports/{report_id}` until `status` is `"complete"` or `"failed"`. Requires `X-API-Key` header.
+
+```http
+GET /v1/reports/{report_id}
+X-API-Key: your-analyst-api-key
+```
+
+**Recommended polling interval:** every 3–5 seconds. Most reports complete within 10–30 seconds depending on attachment count and whether local vLLM is available.
+
+**While processing:**
+```json
+{ "status": "submitted" }
+```
+
+**On completion:**
+```json
+{
+  "status": "complete",
+  "hoax_probability": 0.82,
+  "threat_level": 0.15,
+  "urgency_level": "LOW",
+  "action": "flag_for_review",
+  "false_negative_risk": "low",
+  "risk_level": "medium",
+  "incident_type": "bomb_threat",
+  "ai_analysis": "Report shares significant textual overlap with 3 prior hoax submissions...",
+  "confidence_range": [0.74, 0.91],
+  "cluster_summary": { "cluster_size": 4, "avg_similarity": 0.87 },
+  "audit_trail": [...],
+  "image_metadata": [...],
+  "visual_description": "...",
+  "chat_transcript": [...],
+  "vehicle_extractions": [...],
+  "id_document_extractions": [...],
+  "person_descriptions": [...]
+}
+```
+
+**On failure:**
+```json
+{ "status": "failed", "error": "Guardrail block: PII detected" }
+```
+
+### Key Response Fields
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `hoax_probability` | float 0–1 | Core signal — probability the report is fabricated. Higher = more likely a hoax. |
+| `threat_level` | float 0–1 | Severity of the reported incident if real. High threat + high hoax probability = escalate anyway. |
+| `urgency_level` | string | `CRITICAL` / `HIGH` / `MEDIUM` / `LOW` / `MINIMAL` |
+| `action` | string | Recommended action: `escalate`, `flag_for_review`, `monitor`, `archive` |
+| `false_negative_risk` | string | `high` / `medium` / `low` — risk of incorrectly dismissing a real threat |
+| `confidence_range` | [float, float] | Uncertainty bounds on `hoax_probability` |
+| `ai_analysis` | string | LLM-generated explanation of the scoring decision |
+
+### Step 3 — Submit Analyst Feedback (Optional)
+
+After a human analyst reviews a report, send their decision back to improve future scoring:
+
+```http
+POST /v1/feedback
+X-API-Key: your-analyst-api-key
+Content-Type: application/json
+
+{
+  "report_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "analyst_decision": "hoax",
+  "analyst_notes": "Reporter has 3 prior false submissions this month.",
+  "decided_by": "analyst@agency.gov"
+}
+```
+
+`analyst_decision` must be one of: `real`, `hoax`, `inconclusive`.
+
+### Complete Flow Diagram
+
+```
+Backend                          AI Service
+   │                                 │
+   │  POST /v1/reports               │
+   │ ──────────────────────────────► │ → returns {report_id, status:"submitted"} immediately
+   │                                 │
+   │                                 │  [background]
+   │                                 │  IntakeGraph:  guardrails + OCR + vision + extraction
+   │                                 │  IngestionGraph: embed + classify + index to Elasticsearch
+   │                                 │  AnalysisGraph: retrieve similar + score + hoax detection
+   │                                 │
+   │  GET /v1/reports/{id}           │
+   │ ──────────────────────────────► │ → {status:"submitted"}   (still processing)
+   │                                 │
+   │  GET /v1/reports/{id}  (retry)  │
+   │ ──────────────────────────────► │ → {status:"complete", hoax_probability:0.82, ...}
+   │                                 │
+   │  POST /v1/feedback              │
+   │ ──────────────────────────────► │ → {status:"recorded"}
+```
+
+---
+
 ## API Reference
 
 ### `POST /v1/reports`
